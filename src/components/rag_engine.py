@@ -1,7 +1,3 @@
-"""
-RAG Engine - Working version with sentence-transformers
-"""
-
 from typing import List, Dict
 from dotenv import load_dotenv
 import logging
@@ -126,4 +122,5 @@ class RAGEngine:
                 }
                 for doc in sources
             ]
+
         }
