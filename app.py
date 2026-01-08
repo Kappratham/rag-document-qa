@@ -1,7 +1,3 @@
-"""
-DocsDoctor - RAG-Powered Document Q&A System
-Streamlit Web Interface with Fixed Text Colors
-"""
 
 import streamlit as st
 import os
@@ -305,4 +301,5 @@ st.sidebar.markdown("""
             <strong>100% Free & Private</strong>
         </p>
     </div>
+
 """, unsafe_allow_html=True)
